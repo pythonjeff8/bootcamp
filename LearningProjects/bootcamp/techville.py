@@ -46,7 +46,7 @@ elif dest in ("hospital", "mall", "airport", "university", "stadium"):
         if dest == "university":
             turn("Left")
             print("We have arrived at the university")
-        elif dest == "statium":
+        elif dest == "stadium":
             turn("Right") 
             print("We have arrived at the stadium")
 else:

@@ -57,5 +57,5 @@ elif selection == "Healing Potion":
     
 if yn == "yes":
     print()
-    print("Congratulations, you bought all the ingredients for Healing Potion!")  
-         
+    print("Congratulations, you bought all the ingredients for " + selection + "!")  
+        

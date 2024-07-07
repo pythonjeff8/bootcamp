@@ -1,8 +1,4 @@
 
-
-from ast import Return
-
-
 potions = { "Invisibility Potion": ["Moonstone", "Dragon scale", "Fairy dust"], "Flying Potion": ["Phoenix feather", "Troll tooth", "Mermaid scale"], "Healing Potion": ["Unicorn horn", "Elf hair", "Golden apple"] }
 
 print("Welcome to the magic potion shop! ")
@@ -60,7 +56,6 @@ elif selection == "Healing Potion":
         x += 1 
     
 if yn == "yes":
+    print()
     print("Congratulations, you bought all the ingredients for Healing Potion!")  
          
-
-    

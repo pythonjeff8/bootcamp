@@ -6,7 +6,7 @@ print("These are the potions we offer: ")
     
 for k, v in potions.items():
     print(k)
-   
+       
 selection = input("Which potion would you like to buy ingrediants for? ")
 
 print()

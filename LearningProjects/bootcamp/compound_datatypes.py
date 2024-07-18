@@ -1,7 +1,4 @@
 
-from os import major
-
-
 fruit = ["apple", "banana", "cherry", "date"]
 
 fruit.append("elderberry")
@@ -23,29 +20,36 @@ print(student)
 
 student["year"] = "Senior"
 
+print()
+
 #for studentKeys in student:
 print(student.keys())
     
 print(student.values())
 
 #Multiple Dictionaries
-books = [{"title":"Harry Potter", "author":"Rowling", "year":"1997"},
+books = [{"title":"Harry Potter", "author":"J K Rowling", "year":"1997"},
          
          {"title":"Happy Hippo", "author":"Mary Jane", "year":"2970"},
          
          {"title":"My Little Pony", "author":"Jane Horsefeathers", "year":"1990"}]
 
+print()
+
 print(books[1]["title"])
 
 print(books[2]["year"])
-    
+
+print()
+
 res = len(list(filter(lambda x: isinstance(x, dict), books)))
 x = 0
 
 while x < res:
-    print(books[x]["author"])
-    print(books[x]["title"])
+    print("Author: " + books[x]["author"] + " - Title: " + books[x]["title"])
+    
     x = x + 1
+print()
 
 
 courses = [{"Name":"Math", "Student1":"JK Rowling", "Student2":"John Jones"},

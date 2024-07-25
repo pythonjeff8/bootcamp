@@ -8,8 +8,7 @@ def sum_two(numbs: list[int], target):
     x = 0
     y = 0
     nines = []
-    #print(len(numbs))
-    #print(numbs[0])
+    
     while x < (len(numbs) - 1):
         y = x
         while y < (len(numbs) - 1):
@@ -35,6 +34,5 @@ def sum_two(numbs: list[int], target):
         
     print("The value pairs that equal the target are positions: " + pairs)
 
-      
 sum_two([2, 7, 5, 8, 1, 4], 9)
             

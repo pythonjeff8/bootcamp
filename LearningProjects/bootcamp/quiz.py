@@ -1,5 +1,4 @@
 
-
 quiz = [{"Question1":"What is the capitol of France?", "1":"London", "2":"Berlin", "3":"Paris", "Correct":"3"},
          
          {"Question2":"Which planet is known as the Red planet?", "1":"Earth", "2":"Mars", "3":"Jupiter", "Correct":"2"},
@@ -33,9 +32,12 @@ while x < quizLength:
         right.append(question)
     else:   
         wrong.append(question)
+    print()
     x = x + 1
+  
+print()
     
-print("Your final score is: " + str(correct) + "/" + str(answered))
+print("Your final score is: " + str(correct) + "/" + str(answered) + (" or ") +str(int((correct / answered)*100)) + "%" )
 
 print()
 print("Questions you got right - ")

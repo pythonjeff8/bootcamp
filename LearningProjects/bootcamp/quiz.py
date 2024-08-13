@@ -54,5 +54,37 @@ for i in wrong:
     print(i)
 print()
  
-    
+ ''' add and remove questions
+quiz.append({"Question4":"Where you born?", "1":"1957", "2":"2002", "3":"1873", "Correct":"1"})
+# quiz[3].popitem()
 
+quizLength = len(list(filter(lambda x: isinstance(x, dict), quiz)))
+
+x = 0
+correct = 0
+answer = ""
+answered = 0
+right = []
+wrong = []
+
+while x < quizLength:
+    for key, val in quiz[x].items():
+        if "Question" in key:
+            print(val)
+            question = val
+        elif "Correct" in key:
+            next
+        else:
+            print(key +". " + val)
+          
+    answer = input("Your answer (1 / 2 / 3) ")
+    answered = answered + 1
+    if answer == quiz[x]["Correct"]:
+        correct = correct + 1 
+        right.append(question)
+    else:   
+        wrong.append(question)
+    print()
+    x = x + 1
+    
+    '''

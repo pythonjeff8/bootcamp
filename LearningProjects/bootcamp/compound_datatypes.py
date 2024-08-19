@@ -68,10 +68,16 @@ print(courses)
 
 del courses[1]["Student2"]
 
+print("- After del -")
+print()
+
 print(courses)
+
+print()
 
 print(courses[2])
 
 courses.append({"Name":"Physics", "Student1":"George Jones", "Student2":"Fred Flintstone", "Student3":"Betty Rubble", "Student4":"Barney Dino"})
 
+print()
 print(courses[3])

@@ -54,9 +54,10 @@ for i in wrong:
     print(i)
 print()
  
- ''' add and remove questions
+''' add and remove questions
+
 quiz.append({"Question4":"Where you born?", "1":"1957", "2":"2002", "3":"1873", "Correct":"1"})
-# quiz[3].popitem()
+quiz[3].popitem()
 
 quizLength = len(list(filter(lambda x: isinstance(x, dict), quiz)))
 

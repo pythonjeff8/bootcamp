@@ -1,5 +1,5 @@
 
-def remodups(sortlist = []):
+def remodups(sortlist = []) :
     x = 0
     strlen = len(sortlist) - 1
     while x < strlen:
@@ -8,7 +8,10 @@ def remodups(sortlist = []):
             strlen -= 1
         else:
             x += 1
-    print(sortlist)    
+    print(sortlist) 
+    
+    return sortlist   
 
-remodups([1,2,2,2,2,2,2,3,3,5,5,5,5,8])  
+print(remodups([1,2,2,2,2,2,2,3,3,5,5,5,5,8,8,9]))
+  
     
